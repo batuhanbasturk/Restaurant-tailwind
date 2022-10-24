@@ -1,0 +1,228 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ebd5b8b464.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-gray-700 font-body">
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1 md:flex md:justify-end">
+        <nav class="text-right">
+          <div class="flex justify-between items-center">
+            <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+              <a href="" class="hover:text-gray-700 tracking-widest"
+                ><i class="fa-solid fa-drumstick-bite mr-1"></i>Turkish Food</a
+              >
+            </h1>
+            <div class="px-4 cursor-pointer md:hidden" id="bar">
+              <i class="fa-solid fa-2x fa-bars"></i>
+            </div>
+          </div>
+          <ul class="text-sm mt-6 hidden md:block" id="menu">
+            <li class="text-gray-700 font-bold py-1">
+              <a href="#" class="block px-4 justify-end">
+                <span>Home</span>
+                <i class="fa-sharp fa-solid fa-house ml-2 pt-0.5"></i>
+              </a>
+            </li>
+            <li class="py-1">
+              <a href="#" class="block px-4 justify-end">
+                <span>About</span>
+                <i class="fa-solid fa-users ml-2 pt-0.5"></i>
+              </a>
+            </li>
+            <li class="py-1">
+              <a href="#" class="block px-4 justify-end">
+                <span>Contact</span>
+                <i class="fa-solid fa-envelope ml-2 pt-0.5"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class="px-14 py-8 md:col-span-2 bg-gray-100">
+        <div class="flex justify-center md:justify-end">
+          <a
+            href="#"
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            >Log in</a
+          >
+          <a
+            href="#"
+            class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
+            >Sign up</a
+          >
+        </div>
+
+        <header class="mt-5">
+          <h2 class="text-gray-700 text-6xl font-semibold tracking-wider">
+            Recipes
+          </h2>
+          <h3 class="text-2xl font-semibold tracking-wider">
+            For Turkish Food Lovers
+          </h3>
+        </header>
+
+        <div>
+          <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">
+            Latest Recipes
+          </h4>
+
+          <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/mantı.jpg"
+                alt="mantı"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Mantı</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>10 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/lahmacun.jfif"
+                alt="lahmacun"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Lahmacun</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/baklava.jfif"
+                alt="baklava"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Baklava</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/mücver.jpg"
+                alt="mücver"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Mücver</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>10-15 mins</span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">
+            Most Popular
+          </h4>
+
+          <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/kebab.jpg"
+                alt="kebab"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold truncate block">Kebab</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>30 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/iskender.jpg"
+                alt="Iskender"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Iskender</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>20 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/grape-leaves.jpg"
+                alt="grape leaves"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-5">
+                <span class="font-bold">Grape Leaves (Dolma)</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+              <div class="clock">
+                <i class="fa-solid w-2 mr-1 fa-clock"></i>
+                <span>35 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img
+                src="images/kazandibi.jpg"
+                alt="kazandibi"
+                class="h-32 sm:h-48 w-full object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">Kazandibi</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Mehmet Chef</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 flex justify-center">
+          <div
+            class="btn bg-secondary-200 text-secondary-300 inline-block hover:shadow-inner transform hover:bg-opacity-80"
+          >
+            Load more
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
